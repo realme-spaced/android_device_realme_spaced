@@ -452,4 +452,7 @@
 
     <!-- Expected value from fast charging status file  -->
     <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
+
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">realme/RMX3151/RE54B4L1:13/SP1A.210812.016/R.125b34c-1:user/release-keys</string>
 </resources>
