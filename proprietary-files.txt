@@ -452,8 +452,14 @@ vendor/lib64/libbluetooth_audio_session_mediatek.so
 odm/bin/hw/vendor.oplus.hardware.charger@1.0-service
 odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc
 -odm/etc/vintf/manifest/manifest_oplus_charger.xml
+odm/firmware/fastchg/20171/oplus_vooc_fw_op10.bin
+odm/firmware/fastchg/20353/oplus_vooc_fw_op10.bin
 odm/firmware/fastchg/20615/charging_thermal_config_default.txt
 odm/firmware/fastchg/20662/charging_thermal_config_default.txt
+odm/firmware/fastchg/20827/oplus_vooc_fw_op10.bin
+odm/firmware/fastchg/20827/oplus_vooc_fw_rt5125.bin
+odm/firmware/fastchg/20831/oplus_vooc_fw_op10.bin
+odm/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin
 odm/firmware/fastchg/21609/charging_thermal_config_default.txt
 odm/firmware/fastchg/21651/charging_thermal_config_default.txt
 odm/firmware/fastchg/charging_thermal_config_default.txt
