@@ -1,5 +1,3 @@
-# Unpinned blobs from RMX3151-user 13 TP1A.220905.001 1690960746577 release-keys
-
 # AAL
 vendor/lib/libaal_cust.so
 vendor/lib/libaal_key.so
