@@ -23,8 +23,6 @@ fi
 VT-IMS=vendor/realme/ims-spaced/ims-spaced-vendor.mk
 if ! [ -a $VT-IMS ]; then git clone https://github.com/realme-mt6781-dev/android_vendor_realme_ims-spaced vendor/realme/ims-spaced
 fi
-POCKET=packages/apps/PocketMode/pocket_mode.mk
-if ! [ -a $POCKET ]; then git clone https://github.com/realme-mt6781-dev/packages_apps_PocketMode packages/apps/PocketMode
-fi
+
 
 echo end cloning
