@@ -304,10 +304,6 @@ vendor/etc/audio_param/AudioParamOptions.xml
 vendor/etc/audio_param/AudioParamOptions_vext.xml
 vendor/etc/audio_param/BtInfo_AudioParam.xml
 vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml
-vendor/etc/audio_param/CRSVolUI_AudioParam.xml
-vendor/etc/audio_param/CRSVolUI_ParamUnitDesc.xml
-vendor/etc/audio_param/CRSVol_AudioParam.xml
-vendor/etc/audio_param/CRSVol_ParamUnitDesc.xml
 vendor/etc/audio_param/HpImpedance_AudioParam.xml
 vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml
 vendor/etc/audio_param/MicInfo_AudioParam.xml
@@ -459,12 +455,8 @@ odm/firmware/fastchg/20831/oplus_vooc_fw_rt5125.bin
 odm/firmware/fastchg/21609/charging_thermal_config_default.txt
 odm/firmware/fastchg/21651/charging_thermal_config_default.txt
 odm/firmware/fastchg/charging_thermal_config_default.txt
-odm/lib/libosenseaidlhalclient.so
 odm/lib/vendor.oplus.hardware.charger@1.0.so
-odm/lib/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
-odm/lib64/libosenseaidlhalclient.so
 odm/lib64/vendor.oplus.hardware.charger@1.0.so
-odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so
 
 # Chipinfo
 vendor/bin/chipinfo
@@ -478,10 +470,8 @@ odm/lib/libarcsoft_scbokeh_video.so
 odm/lib/libmpbase.so
 odm/lib/liboplus_platform_hwi.so
 odm/lib/libormshalclient.so
-odm/lib/libosensehalclient.so
 odm/lib/libstblur_api.so
 odm/lib/vendor.oplus.hardware.engcamera@1.0.so
-odm/lib/vendor.oplus.hardware.osense.client@1.0.so
 odm/lib64/libAlgoProcess.so
 odm/lib64/libAncHumBokeh.so
 odm/lib64/libAncHumVideoBase.so
@@ -492,12 +482,10 @@ odm/lib64/libcalibverifyW_T.so
 odm/lib64/libmpbase.so
 odm/lib64/liboplus_platform_hwi.so
 odm/lib64/libormshalclient.so
-odm/lib64/libosensehalclient.so
 odm/lib64/libremosaic_wrapper.so
 odm/lib64/libremosaiclib.so
 odm/lib64/libstblur_api.so
 odm/lib64/vendor.oplus.hardware.engcamera@1.0.so
-odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
 vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
@@ -1103,7 +1091,6 @@ vendor/lib/libcameracustom.lens.so
 vendor/lib/libcameracustom.so
 vendor/lib/libchromanr.so
 vendor/lib/libcustomer_cameradata.so
-vendor/lib/libcustomer_testvision.so
 vendor/lib/libdip_drv.so
 vendor/lib/libdip_imem.so
 vendor/lib/libdip_postproc.so
@@ -1193,7 +1180,6 @@ vendor/lib64/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.postproc@1.0-impl.so
-vendor/lib64/hw/vendor.oplus.hardware.cameraextension@1.0-service-impl.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/gc02m1bsy_mipi_raw_21690_IdxMgr.so
 vendor/lib64/gc02m1bsy_mipi_raw_21690_tuning.so
@@ -1800,7 +1786,6 @@ vendor/lib64/libcameracustom.lens.so
 vendor/lib64/libcameracustom.so
 vendor/lib64/libchromanr.so
 vendor/lib64/libcustomer_cameradata.so
-vendor/lib64/libcustomer_testvision.so
 vendor/lib64/libdip_drv.so
 vendor/lib64/libdip_imem.so
 vendor/lib64/libdre.so
@@ -1906,11 +1891,9 @@ vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.ccap@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.0.so
-vendor/lib64/vendor.mediatek.hardware.camera.isphal@1.1.so
 vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
-vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 -vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 -vendor/lib64/vendor.mediatek.hardware.power@2.0.so
@@ -1967,7 +1950,6 @@ vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
-vendor/lib/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib/hw/vulkan.mali.so
 vendor/lib/mt6781/libdpframework.so
 vendor/lib/mt6781/libmtk_drvb.so
@@ -2000,8 +1982,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.10.so
 vendor/lib/vendor.mediatek.hardware.pq@2.11.so
 vendor/lib/vendor.mediatek.hardware.pq@2.12.so
 vendor/lib/vendor.mediatek.hardware.pq@2.13.so
-vendor/lib/vendor.mediatek.hardware.pq@2.14.so
-vendor/lib/vendor.mediatek.hardware.pq@2.15.so
 vendor/lib/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib/vendor.mediatek.hardware.pq@2.4.so
@@ -2019,7 +1999,6 @@ vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6781.so
-vendor/lib64/hw/vendor.mediatek.hardware.pq@2.15-impl.so
 vendor/lib64/hw/vulkan.mali.so
 vendor/lib64/mt6781/libdpframework.so
 vendor/lib64/mt6781/libmtk_drvb.so
@@ -2054,8 +2033,6 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.10.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.11.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.12.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.13.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.14.so
-vendor/lib64/vendor.mediatek.hardware.pq@2.15.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.3.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.4.so
@@ -2479,8 +2456,6 @@ vendor/lib/libMtkOmxGsmDec.so
 vendor/lib/libMtkOmxMp3Dec.so
 
 # Media (Codec2)
-odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so
-odm/lib64/vendor.oplus.hardware.performance-V1-ndk_platform.so
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc
@@ -2564,16 +2539,6 @@ vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/libtflite_mtk.so
 
-# NFC
-odm/etc/init/init.pn8x.nfc.rc
-odm/etc/nfc/libnfc-nxp.conf_21692:vendor/etc/libnfc-nxp.conf
-odm/etc/nfc/pnscr/libnfc-nxp-pnscr.conf:odm/etc/libnfc-nxp-pnscr.conf
-odm/lib/libpn553_fw.so
-odm/lib/libpn557_fw.so
-odm/lib/libpnscr2.so
-odm/lib/libsn100u_fw.so
-odm/lib64/libpnscr2.so
-
 # NVRAM
 vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service
 vendor/bin/fuelgauged_nvram
@@ -2609,10 +2574,8 @@ odm/bin/mtkftm
 odm/etc/ecc_list.xml
 odm/lib/vendor.oplus.hardware.appradio@1.0.so
 odm/lib/vendor.oplus.hardware.mtkmodemaci@1.0.so
-odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so
-odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
 vendor/bin/hw/mtkfusionrild
 vendor/bin/AgentTest
 vendor/bin/ccci_mdinit
@@ -2631,8 +2594,6 @@ vendor/bin/muxreport
 vendor/bin/rttv
 vendor/bin/starter
 vendor/bin/stroke
-vendor/etc/apdb/APDB_MT6785_S01__W2242
-vendor/etc/apdb/APDB_MT6785_S01__W2242_ENUM
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
@@ -2741,7 +2702,6 @@ vendor/lib64/libwpfa.so
 vendor/lib64/vendor.mediatek.hardware.log@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
-vendor/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
 
 # Secure Element
 vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek
@@ -2792,15 +2752,10 @@ vendor/etc/mpe.conf
 vendor/lib/libthermalalgo.so
 
 # ORMS
-odm/bin/hw/vendor.oplus.hardware.ormsHalService-aidl-service
-odm/etc/init/ormsHalService-default.rc
--odm/etc/vintf/manifest/ormsHalService-default.xml
 odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so
 odm/lib/vendor.oplus.hardware.orms@1.0.so
-odm/lib/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
-odm/lib64/vendor.oplus.hardware.ormsHalService-V1-ndk_platform.so
 vendor/lib/liboppo_arcSoftBokehEngine.so
 vendor/lib64/liboppo_arcSoftBokehEngine.so
 
@@ -2861,8 +2816,6 @@ vendor/lib64/libgz_uree.so
 # WiFi
 odm/etc/wifi/txpowerctrl.cfg
 odm/etc/wifi/wifi.cfg
-odm/etc/wifi/wifi_active_channel.cfg
-odm/etc/wifi/wifi_passive_channel.cfg
 vendor/bin/hw/tetheroffloadservice
 vendor/bin/netdagent
 vendor/bin/netdc
