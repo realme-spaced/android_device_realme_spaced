@@ -13,9 +13,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Dalvik VM Configuration
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# PocketMode
-$(call inherit-product-if-exists, packages/apps/PocketMode/pocket_mode.mk)
-
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
